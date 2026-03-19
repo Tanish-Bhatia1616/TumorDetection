@@ -19,9 +19,9 @@ Project Structure
 ├── mri_detection.py         # Core training and evaluation script
 └── README.md                # Project documentation
 
-
 
-⚙️ Workflow
+
+ Workflow
 - Data Loading
 - Images are read from Training/ and Testing/ directories.
 - Labels are encoded into integers.
