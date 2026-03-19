@@ -22,7 +22,7 @@ def predict_image(uploaded_file, model):
     return class_labels[predicted_class_index], confidence_score
 
 # Streamlit UI
-st.title("🧠 MRI Tumor Detection")
+st.title(" MRI Tumor Detection")
 uploaded_file = st.file_uploader("Upload an MRI image", type=["jpg","png","jpeg"])
 
 if uploaded_file is not None:
